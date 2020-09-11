@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(rgb(241, 240, 245), rgb(213, 227, 231));
   color: #2db1a8;
   font-family: arial;
   max-width: 650px;
