@@ -1,0 +1,62 @@
+body {
+  color: #2db1a8;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto; /* 0 --> top and bottom, auto --> left and right */
+  padding: 0 16px; /* ig page is minimized, wiggle room on the sides */
+
+  /* start of flexbox */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% of view port height - ie box containing content */
+}
+
+.main-content {
+  flex-grow: 1; /* 1 takes up all available space */
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee; /* width type color */
+  padding: 16px 0; /* space between edge of box and content */
+  margin-top: 16px; /* margin is outside of the content box */
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+p {
+  color: #888888;
+}
+
+/* Targeting links (a) inside the header */
+header a {
+  color: #888888;
+  margin-right: 16px; /* put some space between the links */
+  text-decoration: none; /* remove the link underline */
+}
+
+/* class selector to be applied to certain image as opposed to img {} which applies to all */
+.portrait {
+  width: 100px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
