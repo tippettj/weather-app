@@ -46,6 +46,7 @@ header a {
 /* class selector to be applied to certain image as opposed to img {} which applies to all */
 .portrait {
   width: 100px;
+  margin-left: 32px;
 }
 
 input {
