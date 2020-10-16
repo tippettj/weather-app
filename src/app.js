@@ -27,14 +27,14 @@ app.use(express.static(publicDirPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather",
-    name: "JT",
+    name: "Julie Tippett",
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    name: "JT",
+    name: "Julie Tippett",
   });
 });
 
@@ -42,7 +42,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     message: "Enter a location to display the weather forecast.",
     title: "Help",
-    name: "JT",
+    name: "Julie Tippett",
   });
 });
 

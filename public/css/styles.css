@@ -1,6 +1,8 @@
 body {
-  background: linear-gradient(rgb(241, 240, 245), rgb(213, 227, 231));
-  color: #2db1a8;
+  background-image: url("/img/weather-clouds.jpg");
+  background-size: cover;
+  /* background: linear-gradient(rgb(241, 240, 245), rgb(213, 227, 231)); */
+  color: white;
   font-family: arial;
   max-width: 650px;
   margin: 0 auto; /* 0 --> top and bottom, auto --> left and right */
@@ -17,8 +19,8 @@ body {
 }
 
 footer {
-  color: #888888;
-  border-top: 1px solid #eeeeee; /* width type color */
+  color: antiquewhite;
+  /* border-top: 1px solid #eeeeee; width type color */
   padding: 16px 0; /* space between edge of box and content */
   margin-top: 16px; /* margin is outside of the content box */
 }
@@ -34,12 +36,12 @@ h1 {
 }
 
 p {
-  color: #888888;
+  color: antiquewhite;
 }
 
 /* Targeting links (a) inside the header */
 header a {
-  color: #888888;
+  color: antiquewhite;
   margin-right: 16px; /* put some space between the links */
   text-decoration: none; /* remove the link underline */
 }
@@ -53,12 +55,17 @@ header a {
 input {
   border: 1px solid #cccccc;
   padding: 8px;
+  opacity: 0.9;
 }
 
 button {
   cursor: pointer;
   border: 1px solid #888888;
-  background: #888888;
+  background: cadetblue;
   color: white;
   padding: 8px;
+}
+
+#footnote {
+  color: dodgerblue;
 }
